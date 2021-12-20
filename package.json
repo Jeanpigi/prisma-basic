@@ -1,0 +1,17 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Jeanpigi <arenaspierre@protonmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "predev": "npx prisma migrate dev --name init",
+    "start": "npx prisma studio"
+  },
+  "devDependencies": {
+    "prisma": "3.6.0"
+  },
+  "dependencies": {
+    "@prisma/client": "3.6.0"
+  }
+}
