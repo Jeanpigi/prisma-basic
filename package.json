@@ -1,5 +1,5 @@
 {
-  "name": "server",
+  "name": "prisma-basic",
   "version": "1.0.0",
   "main": "index.js",
   "author": "Jeanpigi <arenaspierre@protonmail.com>",
